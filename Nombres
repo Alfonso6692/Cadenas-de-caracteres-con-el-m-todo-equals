@@ -16,7 +16,7 @@ public class Nombres {
 		System.out.print("Porfavor ingresa el segundo nombre: ");
 		nombre_dos= entrada.nextLine();
 		
-		if(nombre_uno.equals(nombre_dos))
+		if(nombre_uno.equalsIgnoreCase(nombre_dos))
 		{
 			System.out.println("Los nombres son iguales");
 			
